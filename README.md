@@ -27,11 +27,11 @@ License associalted with prashant-1487057566.92
 
 > Setting maximum VPCs....
 
-https://192.168.0.3/v1/api?CID=58a3762955546&action=setup_max_vpc_containers&vpc_num=2
+: https://192.168.0.3/v1/api?CID=58a3762955546&action=setup_max_vpc_containers&vpc_num=2
 
-Setting maximum number of VPSs as 2.
+: Setting maximum number of VPSs as 2.
 
-Available CIDRs 192.168.0.64/26, 192.168.0.128/26, 192.168.0.192/26
+: Available CIDRs 192.168.0.64/26, 192.168.0.128/26, 192.168.0.192/26
 
 
 Creating User account and associating with AWS....
@@ -41,7 +41,7 @@ Creating User account and associating with AWS....
 Account creation successful. An email with instructions has been sent to rakeshranjan.568@gmail.com
 
 
-Creating VPC with CIDR 192.168.0.64/26
+> Creating VPC with CIDR 192.168.0.64/26
 
 {u'return': True, u'results': u'VPC is successfully created. An email with instructions has been sent to rakeshranjan.568@gmail.com'}
 
