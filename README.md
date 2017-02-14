@@ -9,23 +9,23 @@ On running aviatrix.py, it will follow these steps:
 * Create a user account and associate it with AWS account.
 * Create a VPC in AWS and launch gateway.
 
-### Sample output
+> ### Sample output
 
-Creating new session with username....
+> Creating new session with username....
 
 https://192.168.0.3/v1/api?action=login&username=admin&password=av1@Tr1x
 
 Created new session with CID 58a3762955546
 
 
-Getting license info....
+> Getting license info....
 
 https://192.168.0.3/v1/api?CID=58a3762955546&action=setup_customer_id&customer_id=prashant-1487057566.92
 
 License associalted with prashant-1487057566.92
 
 
-Setting maximum VPCs....
+> Setting maximum VPCs....
 
 https://192.168.0.3/v1/api?CID=58a3762955546&action=setup_max_vpc_containers&vpc_num=2
 
