@@ -9,7 +9,7 @@ On running aviatrix.py, it will follow these steps:
 * Create a user account and associate it with AWS account.
 * Create a VPC in AWS and launch gateway.
 
-> ### Sample output
+### Sample output
 
 > Creating new session with username....
 
