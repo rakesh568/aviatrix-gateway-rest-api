@@ -84,7 +84,7 @@ class aviatrixController:
                 raise
 
         data = {"CID": self.cid, "action": "create_container", "cloud_type": self.cloud_type, "account_name": self.user_account_name, "vpc_name": self.vpc_name, "vpc_reg": self.vpc_region, "vpc_size": self.gw_size, "vpc_net": self.cidr_list[0]}
-        print "Creating VPC with CIDR %s" %cidr_list[0]
+        print "Creating VPC with CIDR %s" %self.cidr_list[0]
         self.do_post(data, createVpcDatacenterSuccessCb)
 
 
@@ -112,7 +112,6 @@ class aviatrixController:
             raise
         
         response_json = response.json()
-        print response_json
         if response_json['return'] == True:
             return callback(response_json)
         else:
